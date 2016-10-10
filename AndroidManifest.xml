@@ -73,6 +73,10 @@
     <protected-broadcast android:name= "com.android.intent.action.IMS_CONFIG_CHANGED" />
     <protected-broadcast android:name= "com.android.ims.REGISTRATION_ERROR" />
     <protected-broadcast android:name= "com.android.phone.vvm.omtp.sms.REQUEST_SENT" />
+    <protected-broadcast android:name= "com.samsung.intent.action.WB_AMR" />
+    <protected-broadcast android:name= "android.intent.action.pcmclkctrl" />
+    <protected-broadcast android:name= "android.intent.action.PHONE_EXSTATE_CHANGED" />
+
 
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
